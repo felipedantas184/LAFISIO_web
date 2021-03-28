@@ -6,7 +6,7 @@ import Laai from './pages/Laai';
     function Routes() {
         return (
             <BrowserRouter>
-                <Route path="/laai" exact component={Laai}/>
+                <Route path="/" exact component={Laai}/>
             </BrowserRouter>
         )
     }
