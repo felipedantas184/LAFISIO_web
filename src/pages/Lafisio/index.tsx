@@ -156,7 +156,7 @@ function Lafisio() {
                         <div className="picDiv"></div>
                             <img src={Luciano} className="teachersPic" />
                             <strong className="teachersName">Luciano da Silva</strong>
-                            <p className="teachersFunction">Suborientador</p>
+                            <p className="teachersFunction">Co-orientador</p>
                         </div>
                     </div>
 
