@@ -297,7 +297,7 @@ function Lafisio() {
                     </div>
 
                     <div className="footerTwo">
-                        <p>LAAI UFPI © 2021 - Felipe Dantas.</p>
+                        <p>LAFISIO UFPI © 2021 - Felipe Dantas.</p>
                     </div>
                 </div>
             </div>
