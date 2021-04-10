@@ -38,6 +38,10 @@
     transition: all .2s ease-in-out;
 }
 
+.logoCorner {
+    height: 30px;
+}
+
 /*HERO*/
 .heroSection {
     display: flex;
