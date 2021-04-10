@@ -43,7 +43,7 @@ function Lafisio() {
                 <div className="navBarContainer">
                         <p className="navLink">LAFISIO</p>
 
-                        <img src={menu} alt="menu"/>
+                        <img src={logo} alt="menu" className="logoCorner"/>
                 </div>
             </nav>
 
