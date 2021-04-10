@@ -56,13 +56,13 @@ function Lafisio() {
                         <p className="heroTop">LIGA ACADÊMICA DE FISIOLOGIA - UFPI</p>
 
                         
-                        <a href="https://www.instagram.com/laaiufpi/" target="blank" className="buttonWrapper">
+                        <a href="https://www.instagram.com/lafisio.ufpi/" target="blank" className="buttonWrapper">
                             <p className="ButtonText">Inscrição - Porcesso Seletivo 2021</p>
                         </a>
-                        <a href="https://www.instagram.com/laaiufpi/" target="blank" className="buttonWrapper">
+                        <a href="https://www.instagram.com/lafisio.ufpi/" target="blank" className="buttonWrapper">
                             <p className="ButtonText">Edital - Porcesso Seletivo 2021</p>
                         </a>
-                        <a href="https://www.instagram.com/laaiufpi/" target="blank" className="buttonWrapper">
+                        <a href="https://www.instagram.com/lafisio.ufpi/" target="blank" className="buttonWrapper">
                             <p className="ButtonText">Apresentação da Liga - PDF</p>
                         </a>
                     </div>
@@ -93,7 +93,7 @@ function Lafisio() {
                             <img src={extensao} alt="extensao" className="iconsOne" />
                         </div>
 
-                        <a href="https://www.instagram.com/laaiufpi/" target="blank" className="buttonWrapperTwo">
+                        <a href="https://www.instagram.com/lafisio.ufpi/" target="blank" className="buttonWrapperTwo">
                             <p className="buttonText">Conheça @lafisio.ufpi</p>
                         </a>
                     </div>
@@ -243,17 +243,17 @@ function Lafisio() {
 
                         <div className="phoneGroup">
                             <div>
-                               <a href="https://www.instagram.com/laaiufpi/" target="blank" className="contactBox">
+                               <a href="https://www.instagram.com/lafisio.ufpi/" target="blank" className="contactBox">
                                     <img src={facebook} alt="facebook" />
                                     <p className="contactText">Facebook LAFISIO</p>
                                 </a>
 
-                               <a href="https://www.instagram.com/laaiufpi/" target="blank" className="contactBox">
+                               <a href="https://www.instagram.com/lafisio.ufpi/" target="blank" className="contactBox">
                                     <img src={instagram} alt="instagram" />
                                     <p className="contactText">Instagram LAFISIO</p>
                                 </a>
                             
-                                <a href="https://www.instagram.com/laaiufpi/" target="blank" className="buttonWrapperThree">
+                                <a href="https://www.instagram.com/lafisio.ufpi/" target="blank" className="buttonWrapperThree">
                                     <p className="buttonTextThree">Siga @lafisio.ufpi</p>
                                 </a>
                             </div>
