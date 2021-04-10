@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Exo', sans-serif;
     box-sizing: border-box;
 }
 
@@ -12,7 +12,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    background: #6E0B9C;
+    background: #007B8E;
     height: 60px;
     z-index: 10;
 }
@@ -27,23 +27,15 @@
     list-style: none;
 }
 
-.navBarItem {
-    height: 60px;
-}
-
 .navLink {
-    font-size: 16px;
-    color: #f6f6f6;
+    font-size: 24px;
+    color: #fff;
     display: flex;
     align-items: center;
     text-decoration: none;
     height: 100%;
     cursor: pointer;
     transition: all .2s ease-in-out;
-}
-
-.navLink.active {
-    border-bottom: 3px solid #F240F2;
 }
 
 /*HERO*/
@@ -53,7 +45,7 @@
     align-items: center;
     height: 720px;
     width: 100%;
-    background: #812CC2;
+    background: #12A3BA;
 }
 
 .heroSectionContainer {
@@ -66,46 +58,60 @@
 }
 
 .heroOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     max-width: 330px;
     color: #fff;
+    text-align: center;
+    align-self: center;
 }
 
 .heroTitle {
-    font-size: 110px;
+    font-size: 88px;
     font-weight: normal;
 }
 
 .heroTop {
-    font-family: "Raleway";
-    font-size: 11px;
-    font-weight: bold;
-    color: #e5e5e5;
-}
-
-.heroDescription {
+    font-family: "Exo";
     font-size: 16px;
-    margin-top: 10px;
-    color: #e5e5e5;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: -20px;
 }
 
 .heroSvg {
-    max-width: 100%;
+    align-self: center;
+    height: 200px;
 }
 
-.buttonWpr {
+.buttonWrapper {
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
     align-self: center;
-    width: 200px;
+    width: 300px;
     height: 40px;
-    border: solid 1px #fff;
     color: #f6f6f6;
-    border-radius: 20px;
+    background-color: #007B8E;
+    border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: all .5s ease-in-out;
 }
 
+.buttonWrapper:hover {
+    border: solid 1px #007B8E;
+    background-color: #fff;
+    color: #007B8E;
+    transform: scale(1.05);
+}
+
+/*
 .buttonWprFive {
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
@@ -127,6 +133,7 @@
 .buttonText {
     font-size: 16px;
 }
+*/
 
 /*Section One*/
 
@@ -134,7 +141,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px;
+    height: 800px;
     width: 100%;
     background: #fff;
 }
@@ -148,47 +155,74 @@
     padding: 0 24px;
 }
 
+.topCornerOne {
+    width: 130px;
+    height: 80px;
+    background-color: #E2E3E5;
+}
+
+.sectionTopTitle {
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 75%;
+    color: #0E7A8B;
+    margin-top: -140px;
+    margin-left: 20px;
+}
+
+.oneSvg {
+    max-width: 300px;
+    align-self: center;
+}
+
 .sectionTitle {
     font-size: 28px;
     font-weight: normal;
-}
-
-.sectionTop {
-    font-family: "Raleway";
-    font-size: 11px;
-    font-weight: bold;
-    margin-left: 2px;
-    margin-bottom: 5px;
+    max-width: 75%;
 }
 
 .sectionDescription {
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #41414a;
 }
 
-.buttonWprTwo {
+.iconsWrapper {
+    margin-top: 20px;
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonWrapperTwo {
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
     align-self: center;
     text-decoration: none;
-    width: 140px;
+    width: 200px;
     height: 40px;
-    background: #812CC2;
+    background: #007B8E;
     color: #f6f6f6;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 20px;
     transition: all .5s ease-in-out;
 }
 
-.buttonWprTwo:hover {
-    border: solid 1px #812CC2;
+.buttonWrapperTwo:hover {
+    border: solid 1px #007B8E;
     background-color: #fff;
-    color: #812CC2;
-    transform: scale(1.1);
+    color: #007B8E;
+    transform: scale(1.05);
+}
+
+.buttonText {
+    font-family: "Raleway";
+    font-size: 14;
+    font-weight: 400;
 }
 
 
@@ -198,9 +232,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px;
+    height: 800px;
     width: 100%;
-    background: #812CC2;
+    background: #12A3BA;
 }
 
 .sectionProjContainer {
@@ -212,67 +246,63 @@
     padding: 0 24px;
 }
 
-.sectionTitleProj {
-    font-size: 28px;
-    font-weight: normal;
+.sectionTopTitleWhite {
     color: #fff;
-    max-width: 85%;
+    font-size: 40px;
+    z-index: 2;
 }
 
-.sectionTopProj {
-    font-family: "Raleway";
-    font-size: 11px;
-    font-weight: bold;
-    margin-left: 2px;
-    margin-bottom: 5px;
-    color: #e5e5e5;
+.topCornerProj {
+    background-color: #0E7A8B;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 1660px;
 }
 
-.sectionDescriptionProj {
-    font-size: 16px;
-    margin-top: 10px;
-    color: #f3f3f3;
-}
-
-.boxGroup {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 150px 150px;
-    row-gap: 20px;
-}
-
-.boxUnit {
+.boxiGroup {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boxiUnit {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    background: blueviolet;
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 20px;
-    padding: 12px;
-    box-shadow: rgba(37, 38, 39, 0.4) 1px 1px 1px 0px, rgba(34, 30, 30, 0.3) -6px -2px 16px 0px;
+    max-width: 100%;
+    margin-bottom: 30px;
     transition: all .5s ease-in-out;
+    border-radius: 10px;
 }
 
-.boxUnit:hover {
-    transform: scale(1.1);
+.boxiUnit:hover {
+    transform: scale(1.05);
+    border-bottom: solid 3px #007B8E;
 }
 
-.boxIcon {
-    max-width: 50px;
-    align-self: flex-start;
-    opacity: 50%;
+.boxiIcon {
+    margin-right: 10px;
+    align-self: center;
+
 }
 
-.boxName {
+.boxiName {
     color: #f6f6f6;
-    font-size: 14px;
+    font-size: 24px;
 }
 
-.boxStatus {
-    color: #d4d4d4;
-    font-size: 13px;
+.boxiDescription {
+    color: #F2F3F5;
+    font-size: 16px;
+}
+
+.projectsSvg {
+    align-self: center;
+    max-width: 300px;
 }
 
 .buttonWprTwo {
@@ -298,38 +328,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px;
+    height: 800px;
     width: 100%;
     background: #f4f4f4;
 }
 
 .sectionTwoContainer {
     display: flex;
-    height: 720px;
+    height: 680px;
     width: 400px;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 24px;
 }
 
-.sectionTwoTitle {
-    font-size: 32px;
-    font-weight: normal;
+.sectionTopTitleBlue {
+    color: #0E7A8B;
+    font-size: 40px;
+    z-index: 2;
 }
 
-.squadTitle {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: "Raleway";
-    margin-top: 5px;
+.topCornerTwo {
+    background-color: #E2E3E5;
+    width: 330px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 2460px;
 }
 
-.teacherGroup {
-    margin-top: 5px;
+.teachersGroup {
     display: flex;
 }
 
-.teacherUnit {
+.teachersUnit {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -339,32 +371,37 @@
     transition: all .5s ease-in-out;
 }
 
-.teacherPic {
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-    max-width: 60px;
-    border-radius: 50%;
+.picDiv {
+    width: 60px;
+    height: 60px;
+    background-color: #ff5757;
 }
 
-.teacherName {
-    font-size: 12px;
+.teachersPic {
+    max-width: 60px;
+    margin-top: -55px;
+    margin-left: 10px;
+}
+
+.teachersName {
+    font-size: 16px;
     font-weight: bold;
     margin-top: 5px;
 }
 
-.teacherFunction {
-    font-size: 10px;
+.teachersFunction {
+    font-size: 12px;
 }
 
 
-.directorGroup {
-    margin-top: 5px;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 90px 90px;
-    row-gap: 5px;
+.directorsGroup {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 
-.directorUnit {
+.directorsUnit {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -374,57 +411,35 @@
     transition: all .5s ease-in-out;    
 }
 
-.directorPic {
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-    max-width: 55px;
-    border-radius: 50%;
+.picDivTwo {
+    width: 57px;
+    height: 57px;
+    background-color: #12A3BA;
 }
 
-.directorName {
-    font-size: 12px;
+.directorsPic {
+    width: 57px;
+    margin-top: -52px;
+    margin-left: 10px;
+}
+
+.directorsName {
+    font-size: 15px;
     font-weight: bold;
     margin-top: 5px;
 }
 
-.directorFunction {
-    font-size: 10px;
+.directorsFunction {
+    font-size: 11px;
 }
 
-.studentGroup {
-    margin-top: 5px;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 90px 90px;
-    row-gap: 5px;
-    align-items: flex-start;
-}
-
-.studentUnit {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 85px;
-    transition: all .5s ease-in-out;
-}
-
-.studentPic {
-    box-shadow: rgba(136, 165, 191, 0.48) 8px 3px 19px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-    max-width: 50px;
-    border-radius: 50%;
-}
-
-.studentName {
-    font-size: 10px;
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-.teacherUnit:hover,
-.directorUnit:hover,
-.studentUnit:hover {
+.teachersUnit:hover,
+.directorsUnit:hover {
     transform: scale(1.2);
+}
+
+.squadSvg {
+    max-height: 125px;
 }
 
 /* Section Three */
@@ -432,84 +447,120 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 800px;
     width: 100%;
-    background: #812CC2;
+    background: #12A3BA;
 }
 
 .sectionThreeContainer {
     display: flex;
-    height: 480px;
+    height: 680px;
     width: 400px;
     flex-direction: column;
     justify-content: space-between;
     padding: 0 24px;
 }
 
-.sectionTitleThree {
-    font-size: 32px;
+.topCornerThree {
+    background-color: #0E7A8B;
+    width: 220px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 3265px;
+}
+
+.contactSvg {
+    max-width: 250px;
+    align-self: center;
+}
+
+.sectionTitleWhite {
+    font-size: 28px;
     font-weight: normal;
-    max-width: 90%;
-    color: #fff;
+    max-width: 75%;
+    color: #f6f6f6;
 }
 
-.sectionDescriptionTwo {
-    color: #e5e5e5;
+.sectionDescriptionWhite {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #E2E3E5;
 }
 
-.buttonWprThree {
+.contactBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 15px;
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
-    text-decoration: none;
     align-self: center;
-    width: 200px;
-    height: 40px;
-    border: solid 1px #fff;
-    color: #f6f6f6;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 15px;
+    text-decoration: none;
     transition: all .5s ease-in-out;
+    max-width: 176px;
 }
 
-.buttonWprFour {
-    -webkit-tap-highlight-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-    align-self: center;
-    width: 140px;
-    height: 40px;
-    border: solid 1px #fff;
-    color: #f6f6f6;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    transition: all .5s ease-in-out;
+.contactBox:hover {
+    transform: scale(1.05);    
 }
 
-.CTAButton {
+.contactText {
+    color: #F6F6F6;
     font-size: 14px;
 }
 
-.buttonWprThree:hover,
-.buttonWprFour:hover {
-    background-color: #f6f6f6;
-    border: none;
-    color: #812cc2;
-    transform: scale(1.1);
+.phoneGroup {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
+.buttonWrapperThree {
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    align-self: center;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    background: #007B8E;
+    color: #f6f6f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all .5s ease-in-out;
+    align-self: flex-start;
+}
+
+.buttonWrapperThree:hover {
+    border: solid 1px #007B8E;
+    background-color: #fff;
+    color: #007B8E;
+    transform: scale(1.05);
+}
+
+.buttonTextThree {
+    font-family: "Raleway";
+    font-size: 14;
+    font-weight: 400;
+}
+
+.iphone {
+    align-self: flex-start;
+    margin-top: 45px;
+    max-width: 176px;
+}
+
+/*FOOTER*/
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 200px;
     width: 100%;
-    background: #6E0B9C;
+    background: #000;
 }
 
 .footerContainer {
@@ -530,10 +581,18 @@
 
 .logoGroup {
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoImg {
+    max-width: 45px;
+    margin-right: 10px;
 }
 
 .footerLogo {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: normal;
     color: #d4d4d4;
 }
@@ -555,5 +614,5 @@
 
 .footerTwo {
     color: #c4c4c4;
-    font-size: 12px;
+    font-size: 14px;
 }
